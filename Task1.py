@@ -46,7 +46,7 @@ def val_user():
         #print("Valid Username")
         pwd(username,password)
     else:
-        print("Invalid Username") 
+        print("Invalid Username. Username should be your email id") 
         val_user()
         
 def pwd(username,password):
